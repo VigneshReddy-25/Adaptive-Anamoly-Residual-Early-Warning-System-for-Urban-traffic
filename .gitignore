@@ -1,0 +1,75 @@
+# ==============================
+# Frontend - Node / Vite
+# ==============================
+
+node_modules/
+frontend/node_modules/
+
+dist/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+
+# ==============================
+# Backend - Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+
+.venv/
+venv/
+env/
+
+*.egg-info/
+.pytest_cache/
+
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+*.env
+!.env.example
+
+# Local configuration
+*.local
+
+
+# ==============================
+# IDE / Editors
+# ==============================
+
+.vscode/
+.idea/
+
+*.iml
+
+
+# ==============================
+# Operating System
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+logs/
+
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
