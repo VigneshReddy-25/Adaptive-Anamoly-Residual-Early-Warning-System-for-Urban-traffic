@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AAR-EWS — Adaptive Anomaly-Residual Early Warning System</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0d1424; color: #e2e8f4; font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+    @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.4 } }
+    @keyframes spin  { to { transform: rotate(360deg) } }
+    @keyframes fadein { from { opacity:0; transform:translateY(6px) } to { opacity:1; transform:none } }
+    ::-webkit-scrollbar { width:6px } ::-webkit-scrollbar-track { background:#131929 }
+    ::-webkit-scrollbar-thumb { background:#222e45; border-radius:3px }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
